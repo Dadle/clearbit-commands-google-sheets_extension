@@ -1,3 +1,13 @@
+// Adds the menu option to the sheet being opened
+function onOpen() {
+  var ui = SpreadsheetApp.getUi();
+  // Create menu
+  ui.createMenu('Clearbit Commands')
+      .addItem('Get Company Info', 'getCompanyInfo')  // The name of the menu item and the name of the function to run
+      .addToUi();
+}
+
+// This is doing all the work
 function getCompanyInfo() {
   var sheet = SpreadsheetApp.getActiveSheet();
   var range = sheet.getActiveRange();
