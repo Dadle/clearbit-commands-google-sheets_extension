@@ -1,9 +1,13 @@
-# clearbit-commands-google-sheets_extension
-Script for using Clearbit free APIs to look up domain and logo from a company name
+# Clearbit Commands Google Sheets Extension
+This script sets up a button in your Google Sheets spreadsheet that will look up the website and logo of a company in a cell and write them in the two cells to the right of the selected cell. 
+And yes, you can select a range and process them all in one go. 
 
-### Steps for setting up Clearbits Commands button in google sheets
+[![Image from Gyazo](https://i.gyazo.com/83681a75176a89ba84e5acc9b81ffdbf.gif)](https://gyazo.com/83681a75176a89ba84e5acc9b81ffdbf)
+
+
+## Steps for setting up Clearbits Commands button in google sheets
 1. Create a Clearbit account: [Clearbit website](https://dashboard.clearbit.com/)
-2. Have your secret API key ready for later \n ![image](https://github.com/Dadle/clearbit-commands-google-sheets_extension/assets/16399255/455c9ca0-9b71-4d50-8a10-0e69878a4d3c)
+2. Have your secret API key ready from the [Clearbit API page](https://dashboard.clearbit.com/api) \n ![image](https://github.com/Dadle/clearbit-commands-google-sheets_extension/assets/16399255/455c9ca0-9b71-4d50-8a10-0e69878a4d3c)
 3. Open your Google Sheet.
 4. Go to Extensions -> Apps Script.
 5. Add new file and name it "Clearbit Commands.gs" \n ![image](https://github.com/Dadle/clearbit-commands-google-sheets_extension/assets/16399255/6fbd51a0-a396-438f-8164-0aa1bd5f1f84)
